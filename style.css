@@ -1,0 +1,639 @@
+h6 {
+    text-align: left;
+    
+
+ }
+
+ body{
+    overflow-x: hidden; /* Pour fixer */
+    
+ }
+
+ ul, ol, h4 {
+    display: inline-flex;  /* Afficher les éléments sur la même ligne */
+    margin: 10px;  /* Ajouter un espacement entre les éléments */
+    text-align: center;
+ }
+  
+ nav {
+    display: flex;
+    justify-content: center; /* Centrer les éléments horizontalement */
+    align-items: center; /* Centrer les éléments verticalement */
+    padding: 20px 0; /* Ajout de l'espace autour */
+    position: relative;
+    top: -45px; /* Déplacer un peu vers le haut */
+}
+
+ul, ol {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    
+}
+
+ul {
+    background-color: rgb(3, 103, 103);
+    border-radius: 5px;
+    margin-right: 5px; /* Ajouter un espace entre ul et ol */
+    margin-left: 200px;
+    margin-top: -1px;
+    justify-content: center;
+   
+}
+
+ul li{
+    margin:0 15px;
+    color: white;
+    padding: 10px;
+
+}
+ol li {
+    margin: 0 15px;
+    color: black;
+    padding: 10px;
+  
+}
+
+ol {
+    margin-left: 50px; /* Décaler un peu à gauche */
+    
+}
+
+ ol,container {
+   
+    padding: 10;
+    margin: 13;
+    
+ }
+ body {
+    background-color: rgb(233, 243, 244);
+ }
+
+h4 {
+    padding: 10px;
+    color: rgb(3, 103, 103);/* Texte en bleu */
+    
+}
+
+h1{
+    text-align: justify;
+    color:  rgb(3, 103, 103);/* Texte en bleu */
+    margin: auto;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Alignement vertical */
+    gap: 20px; /* Espace entre l'image et le texte */
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 40px;
+    
+}
+
+h3{
+    background: none;
+}
+    header{
+        background-color:white;
+        padding: 20px;
+        margin: 1%;
+        text-align: center;
+        border-radius: 0%; /* Bord arrondi pour un effet doux */
+        border-bottom: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        height: 70px;
+        width: 90;
+        left: 3;
+        margin: 2;
+        padding-top: 20px;
+        padding-bottom: 2px;
+    }
+    
+#seule{
+    position: relative;
+    text-align: center;
+    right: 10px;
+}
+ 
+    
+ main, p, h1, img{
+    display: flex;
+    justify-content: center;
+   
+}
+
+section, p, #logo {
+    margin-top: 30px;
+    margin-left: -250px;
+
+}
+main, p{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+#logo{
+    margin-top: 80px;
+    font-size: 50px;
+    margin-left: 2px;
+}
+
+.section{
+    right: 200px;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 50px;
+    font-style: normal;
+}
+
+h2 {
+    color: white; /* Assurer que la couleur est visible */
+    margin-bottom: 20px; /* Espacement sous le titre */
+}
+
+#entete{
+    position: relative;
+    font-size: 20px;
+    left: 10px;
+    margin-top: 5px;
+
+}
+
+/*  mon  reseau*/
+.btn-network{
+    background-color:  rgb(3, 103, 103);
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    height: 50px;
+    text-align: end;
+    justify-content: center;
+    margin-top: 1%;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    right: 10px;
+    left: 600px;
+    top: 60px;
+    
+    
+}
+/*button "commencer"*/
+.btn-start{
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-color: rgb(3, 103, 103);
+    border-radius: 5px;
+    gap: 10;
+    position: relative;
+    display: block;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    margin: 1%;
+    text-align: center;
+    margin-top: 10px;
+    right: 1px;
+    left: 400px;
+    
+}
+  
+.section {
+    background-color: rgb(3, 103, 103);
+    color: white;
+    text-align: center;
+    height: 300px;
+    justify-content: left;
+    
+}
+ #unique{
+    color: rgb(3, 103, 103);
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin: 20px;
+      
+ }
+
+ hr{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(3, 103, 103);
+    border-radius: 30px;
+    margin-top: 40px; /* En haut*/
+    
+}
+
+#contacts{
+    color: rgb(3, 103, 103);
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 10px;
+    margin: 10px;
+    
+ }
+
+ .image-container{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    justify-content: space-around;
+    gap: 5px;
+    background-color: rgb(3, 103, 103);
+    border-radius: 10px;
+    margin: 100px;
+    height: -300px;
+    padding: 100px;
+    right: 30px;
+    top: -50px;
+    bottom: 100px;
+    margin-top: 50px;
+       
+ }
+
+ #moi{
+    margin-top: -60px;
+    color: rgb(3, 103, 103);
+    font-size: 40px;
+    height: 150px;
+      
+ }
+  #form{
+    border-color: rgb(3, 103, 103);
+    border-radius: 4px;
+  }
+
+  footer{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    margin: 5px;
+    padding: 50px;
+    margin-top: -60px;
+    
+  }
+  
+.title{
+    font-size: 24px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 400px;
+
+  }
+   .contact{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    
+   }
+   .formulaire{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin: 120px;
+    background-color: rgb(3, 103, 103);
+    margin-top: 50px;
+    color: white;
+
+   }
+
+   #nom_complet{
+    height: 50px;
+    width: 500px;
+    border: none;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    right: 30px;
+    top: 50px;
+    
+   }
+
+   #nom{
+    left: 110px;
+    position: relative;
+    margin: 12px;
+    bottom: 60px;
+    top: 1px;
+    
+   }
+   #structure{
+    height: 50px;
+    width: 500px;
+    border: none;
+    position: relative;
+    margin: 15px;
+    border-radius: 10px;
+    left: 150;
+    right: 3px;
+    top: 50px;
+    
+   }
+
+   #strict{
+    left: 110px;
+    position: relative;
+    margin: 15px;
+    bottom: 50px;
+    top: 1px;
+    
+   }
+
+   #adresse{
+    height: 50px;
+    width: 500px;
+    border: none;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    left: 150;
+    right: 3px;
+    top: 40px;
+
+   }
+
+   #ad{
+    left: 110px;
+    position: relative;
+    margin: 20px;
+    bottom: 50px;
+    top: 1px;
+    
+   }
+
+   #message{
+    height: 150px;
+    width: 500px;
+    border: none;
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    left: 200;
+    right: 10px;
+    top: 40px;
+
+   }
+
+   #sms{
+    left: 110px;
+    position: relative;
+    margin: 10px;
+    bottom: 60px;
+    
+   }
+
+#images{
+    position: relative;
+    margin-bottom: 40px;
+    bottom: 150px;
+    left: 250px;
+    font-weight: bold; /* les ecritures en gras*/
+    justify-content: center;
+
+   }
+   .prev{
+    position: relative;
+    padding: 10px;
+    right: 200px;
+    left: 150px;
+    bottom: 2px;
+   }
+
+.preve{
+    position: relative;
+    padding: 10px;
+    right: 200px;
+    left: 550px;
+    bottom: 2px;
+    transform: scaleX(-1);
+
+}
+
+.boutt{
+    position: relative;
+    padding: 10px;
+    right: 20px;
+    left: -30px;
+    bottom: 2px;
+    height: 50px;
+    top: 80px;
+
+   }
+
+   .boutton{
+    position: relative;
+    padding: 10px;
+    right: 20px;
+    left: 40px;
+    bottom: 20px;
+    height: 50px;
+    top: 80px;
+    transform: scaleX(-1);
+   
+   }
+
+   .container #par {
+    top: 50px;
+    
+   }
+
+   #images3{
+    position: relative;
+    margin-bottom: 40px;
+    bottom: 158px;
+    left: 240px;
+    align-items: center;
+    font-weight: bold; 
+    justify-content: center;
+    margin-top: 20px;
+   
+   }
+   #logos{
+    position: relative;
+
+   }
+
+   #logo{
+    margin-top: 20px;
+    position: relative;
+    
+   }
+
+   #images4{
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 2px;
+    top: 20px;
+    left: 1px;
+
+   }
+
+   #images5{
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 2px;
+    top: 20px;
+    left: 1px;
+
+   }
+
+   #images6{
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 12px;
+    top: 12px;
+    left: 1px;
+
+   }
+
+   #images7{
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    bottom: 2px;
+    top: 10px;
+    left: 1px;
+
+   }
+
+   .icon{
+    background-color: white;
+    height: 180px; 
+    position: relative;
+    display: inline-block;
+    transform: scale(0.5) translateX(100px); /* Réduction et déplacement */
+    transition: all 0.3s ease-in-out; /* Animation fluide */
+    border-radius: 20px;
+    margin-top: -100px;
+    
+}
+    .icones {
+        background-color: white; /* Ajoute un fond blanc */
+        right: 30%;
+        transform: translateX(-50%) scale(0.5);
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px; /* Ajoute de l'espace autour des icônes */
+        z-index: 10; /* Assure que la section est au-dessus des autres éléments */
+        padding-top: -10px ;
+        bottom: -140px;
+        position: relative;
+        border-radius: 20px;
+        margin-top: -10px;
+    }
+
+    #insta{
+        position: relative;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10px;
+        bottom: 2px;
+        top: -1px;
+        left: 20px;
+
+    }
+
+    #twi{
+        position: relative;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10px;
+        bottom: 2px;
+        top: -1px;
+        left: 15px;
+    }
+
+    #face{
+        position: relative;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10px;
+        bottom: 12px;
+        top: -1px;
+        left: 10px;
+        
+    }
+
+    #in{
+
+        position: relative;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10px;
+        bottom: 2px;
+        top: -1px;
+        left: 1px;
+    }
+
+    #nomPar{
+        position: relative;
+        padding-bottom: 200px;
+        font-weight: bold;
+        font-size: 20px;
+        left: 95px;
+    }
+
+    #Propos{
+        position: relative;
+        padding-bottom: 200px;
+        font-weight: bold;
+        font-size: 20px;
+        left: 125px;
+        width: 100px;
+
+    }
+
+    #Adam{
+        font-weight: bold;
+        margin-top: 90px;
+        justify-content: center;
+       
+    }
+
+    #Gene{
+        font-weight: normal;
+        margin-top: -15px;
+        justify-content: center;
+
+    }
+
+    #Jul{
+        font-weight: bold;
+        margin-top: 80px;
+        justify-content: center;
+    }
+
+    #Sel{
+        font-weight: normal;
+        margin-top: -15px;
+        justify-content: center;
+    }
+
+    
+   
+
+
+   
+
+  
+
+
+   
+
+
